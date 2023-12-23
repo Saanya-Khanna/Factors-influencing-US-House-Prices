@@ -4,7 +4,8 @@
 This project delves into a comprehensive analysis of the U.S. housing market using SQL inner joins. Leveraging the "US_House_Price" table, this endeavor explores the integration of related data from auxiliary tables, such as "Location" and "Economic_Indicators," to derive valuable insights into housing trends, economic indicators, and geographical aspects. The inner join technique is employed to seamlessly combine data based on shared identifiers, offering a holistic view of the U.S. housing landscape.
 
 # Data Source:
-The U.S. housing market data employed in this project is taken from Factors influencing U.S. house Prices sources that provide up-to-date information on housing prices, economic indicators, and regional demographics. The dataset has been meticulously organized, encompassing tables such as "US_House_Price," "Location," and "Economic_Indicators" to facilitate a holistic analysis.
+The U.S. housing market data employed in this project is taken from [Factors influencing U.S. house prices](https://www.kaggle.com/datasets/jyotsnagurjar/factors-influencing-us-house-prices) sources that provide up-to-date information on housing prices, economic indicators, and regional demographics. The dataset has been meticulously organized, encompassing tables such as "US_House_Price," "Location," and "Economic_Indicators" to facilitate a holistic analysis.
+
 
 # Skills Used:
 - Inner Joins
