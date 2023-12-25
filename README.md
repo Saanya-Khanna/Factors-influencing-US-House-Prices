@@ -1,4 +1,4 @@
-# Factors-influencing-US-House-Prices
+# Factors Influencing US House Prices
 
 # Description:
 This project delves into a comprehensive analysis of the U.S. housing market using SQL inner joins. Leveraging the "US_House_Price" table, this endeavor explores the integration of related data from auxiliary tables, such as "Location" and "Economic_Indicators," to derive valuable insights into housing trends, economic indicators, and geographical aspects. The inner join technique is employed to seamlessly combine data based on shared identifiers, offering a holistic view of the U.S. housing landscape.
