@@ -1,28 +1,28 @@
 # Factors Influencing US House Prices
 
 # Description:
-This project delves into a comprehensive analysis of the U.S. housing market using SQL inner joins. Leveraging the "US_House_Price" table, this endeavor explores the integration of related data from auxiliary tables, such as "Location" and "Economic_Indicators," to derive valuable insights into housing trends, economic indicators, and geographical aspects. The inner join technique is employed to seamlessly combine data based on shared identifiers, offering a holistic view of the U.S. housing landscape.
+Embark on a comprehensive exploration of the U.S. housing market, unraveling key insights through the fusion of SQL inner joins and Python visualization techniques. This project delves into critical factors such as DATE, building_permits, const_price_index, delinquency_rate, GDP, house_for_sale_or_sold, housing_subsidies, income, interest_rate, and mortgage_rate. The goal is to gain a nuanced understanding of their collective impact on U.S. house prices, employing both SQL and Python to extract valuable insights from interconnected datasets.
 
 # Data Source:
-The U.S. housing market data employed in this project is taken from [Factors influencing U.S. house prices](https://www.kaggle.com/datasets/jyotsnagurjar/factors-influencing-us-house-prices) sources that provide up-to-date information on housing prices, economic indicators, and regional demographics. The dataset has been meticulously organized, encompassing tables such as "US_House_Price," "Location," and "Economic_Indicators" to facilitate a holistic analysis.
-
+The U.S. housing market data originates from [Factors influencing U.S. house prices](https://www.kaggle.com/datasets/jyotsnagurjar/factors-influencing-us-house-prices), providing up-to-date information on factors influencing house prices. The dataset encompasses fields such as DATE, building_permits, const_price_index, delinquency_rate, GDP, house_for_sale_or_sold, housing_subsidies, income, interest_rate, and mortgage_rate.
 
 # Skills Used:
 - Inner Joins
 - SQL Querying
 - Data Analysis
 - Database Management
+- Python (Data Visualization)
 
 # Usage:
-The SQL queries provided in this project are designed to be executed in a SQL environment connected to a database containing U.S. housing market data. Each query focuses on a specific aspect of analysis, showcasing the power of inner joins in extracting meaningful information from interconnected datasets. Users can run these queries individually or collectively to gain a nuanced understanding of the U.S. housing market.
+- Execute the SQL queries provided in this project within a SQL environment connected to a database housing U.S. housing market data. Driven by inner joins, these queries enable a seamless exploration of the interconnected dataset. 
+- Python scripts, including the provided code, transform raw data into visually compelling representations, facilitating a deeper understanding of U.S. housing market trends.
 
-# Instructions:
-1. Ensure access to the U.S. housing market database, including the "US_House_Price," "Location," and "Economic_Indicators" tables.
-2. Copy and execute the desired SQL queries in a SQL environment connected to the relevant database.
-3. Review the query results to explore insights derived from the integrated data.
+# Python Code:
+The Python code leverages pandas and matplotlib to visualize average house prices over the years. It reads data from the CSV file, converts the 'DATE' column to datetime format, extracts year and month information, and calculates mean prices grouped by year. The resulting trend visualization offers a clear depiction of average house price dynamics.
+
 
 # Contributing:
-Contributions to this project are welcomed. Users are encouraged to submit pull requests or open issues for suggestions, improvements, or additional queries related to U.S. housing market analysis with inner joins.
+Contributions to this project are encouraged. Submit pull requests or open issues for suggestions, improvements, or additional queries related to U.S. housing market analysis with inner joins and Python-based visualization.
 
 # Acknowledgements:
-Special thanks to the maintainers of the U.S. housing market dataset for enabling this project. Additionally, appreciation is extended to the SQL community for fostering collaborative learning and exploration of data analysis techniques.
+Special thanks to the maintainers of the U.S. housing market dataset for their commitment to providing a valuable resource for analysis.
