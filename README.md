@@ -3,7 +3,7 @@
 # Description:
 This project explores various analytical techniques to understand trends and factors influencing the U.S. housing market over a period of 19 years (2003-2022). Using SQL queries, we perform filtering, aggregation, temporal analysis, and other advanced data analyses to gain insights into the housing market dynamics.
 
-Key Components:
+**Key Components:**
 1. **Filtering Data**: We use a Common Table Expression (CTE) to filter the dataset for the specific time period from January 2003 to January 2022. This helps focus on a relevant timeframe for the analysis.
    
 2. **Aggregating Data**: Calculate average values and standard deviations for key indicators such as building permits, construction price index, delinquency rates, GDP, house sales, housing subsidies, income, interest rates, and mortgage rates.
